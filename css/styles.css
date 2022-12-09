@@ -482,7 +482,8 @@ address {
   align-items: center;
 }
 
-.team-soc-link:hover {
+.team-soc-link:hover,
+.team-soc-link:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
